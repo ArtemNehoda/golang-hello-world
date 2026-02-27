@@ -1,0 +1,11 @@
+.git
+.gitignore
+*.md
+.vscode
+.idea
+*.swp
+.DS_Store
+.env
+*.out
+coverage/
+server

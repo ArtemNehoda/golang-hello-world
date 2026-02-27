@@ -1,0 +1,10 @@
+type Message {
+  id: ID!
+  content: String!
+  author: String!
+  createdAt: String!
+}
+
+type Query {
+  messages: [Message!]!
+}
