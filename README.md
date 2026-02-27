@@ -3,9 +3,10 @@
 A GraphQL hello world service. The service allows you to create and retrieve messages, which are stored in a MySQL database. The service is built using Go, GraphQL, and Docker. Architecture is layered, with a clear separation of concerns between the different layers.
 
 ### Quick Start
+Create a `.env` field start the application using Docker:
 
 ```bash
-cd golang
+copy .env.example .env
 docker-compose up -d
 ```
 
